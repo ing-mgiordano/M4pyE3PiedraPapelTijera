@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background: #0c0627ce;
+}
+
+header{
+    background: #dd311e;
+    padding: 10px;
+    color: #fff;
+    font-family: 'Indie Flower', cursive;
+}
+
+header>h1{
+    font-size: 50px;
+}
+
+.marcador{
+    border: 3px solid #fff;
+    margin: 30px auto;
+    width: 250px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 5px;
+    text-align: center;
+    padding: 15px 20px;
+    position: relative;
+    font-family: 'Indie Flower', cursive;
+}
+.marcador>input{
+    border-radius: 5px;
+    text-align: center;
+    font-family: 'Indie Flower', cursive;
+    border-radius: 50%;
+    font-size: 20px;
+}
+
+.badge{
+    background: #dd311e;
+    font-size: 15px;
+    border: 2px #fff;
+    border-radius: 10px;
+    padding: 3px 2px;
+    
+}
+
+.user-label{
+    position: absolute;
+    top: auto;
+    left: -25px;
+    height: 40%;
+    width: 30%;
+    font-family: 'Indie Flower', cursive;
+}
+
+.comp-label{
+    position: absolute;
+    top: auto;
+    right: -25px;
+    height: 40%;
+    width: 30%;
+    font-family: 'Indie Flower', cursive;
+}
+
+#user-score, #comp-score{
+    padding: 5px;
+    font-size: 30px;
+}
+
+.result{
+    font-size: 40px;
+    color: #fff;
+    text-align: center;
+}
+
+.result>button{
+    text-align: center;
+    font-family: 'Indie Flower', cursive;
+    position: relative;
+    font-size: 25px;
+    border-radius: 20%;
+    width: 100px;
+    height: 50px;
+}
+
+.opciones{
+    text-align: center;
+    margin: 50px;
+}
+
+.choice{
+    display: inline-block;
+    border: 4px solid #fff;
+    border-radius: 50%;
+    background: #fff;
+    padding: 15px;
+    margin: 20px;
+    transition: all 0.3s ease;
+}
+/* .choice:hover{
+    background: #dd311e;
+    cursor: pointer;
+} */
+
+#result{
+    text-align: center;
+    font-family: 'Indie Flower', cursive;
+    font-size: 30px;
+    color: #fff;
+}
+
+#num{
+    font-family: 'Indie Flower', cursive;
+    font-size: 25px;
+    color: #0c0627ce;
+}
+
